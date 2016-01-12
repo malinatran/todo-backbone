@@ -1,0 +1,218 @@
+body {
+  text-align: center;
+}
+
+input {
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Header (title & input for new todo) */
+#title-container {
+  text-align: center;
+}
+
+#title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+}
+
+#subtitle {
+  color: #3399ff;
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+}
+
+#new-todo {
+  border-bottom: 1px solid black;
+  margin: 20px;
+}
+
+#container {
+  text-align: center;
+}
+
+/* TODO List */
+table {
+  margin: 0 auto;
+}
+
+
+td {
+  text-align: left;
+  padding: 5px 10px 5px 0;
+}
+
+label {
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.toggle {
+  margin-right: 10px;
+}
+
+.delete {
+  color: #d3d3d3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.complete {
+  color: #bbb;
+  text-decoration: line-through;
+}
+
+/* Editing */
+#list input.edit {
+  display: none;
+}
+
+#list .editing label {
+  display: none;
+}
+
+#list .editing input.edit {
+  display: inline;
+}
+
+.edit {
+  border: 1px solid #d3d3d3;
+  color: #909090;
+  font-family: 'PT Serif', serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Shortcut */
+#shortcuts-title {
+  border: 1px solid #ff9933;
+  border-radius: 5px;
+  color: #ff9933;
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+#shortcuts-container {
+  margin: 20px auto 5px;
+  text-align: center;
+}
+
+#shortcuts-text-container {
+  /*display: none;*/
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.key-commands {
+  background-color: #ff9933;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.shortcuts-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#countdown {
+  color: #3399ff;
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+}
+
+.link, .link a {
+  border: 1px solid #ff5050;
+  border-radius: 5px;
+  color: #ff5050;
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+  margin: 5px auto;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#maker {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#maker a {
+  color: #000;
+  text-decoration: none;
+}
+
+#wrapper {
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px 25px 50px;
+  position: relative;
+}
+
+#wrapper:before, #wrapper:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+#wrapper:after {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+
