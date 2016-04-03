@@ -1,4 +1,10 @@
 body {
+  background-image: url('corkboard.jpg');
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  height: 100vh;
   text-align: center;
 }
 
@@ -40,6 +46,7 @@ input:focus {
 }
 
 .thumbtack {
+  height: 80px;
   width: 80px;
 }
 
@@ -200,9 +207,9 @@ li {
   top: 80%;
   max-width:300px;
   background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
+  -webkit-box-shadow: 0 15px 10px #000;
+  -moz-box-shadow: 0 15px 10px #000;
+  box-shadow: 0 15px 10px #000;
   -webkit-transform: rotate(-3deg);
   -moz-transform: rotate(-3deg);
   -o-transform: rotate(-3deg);
