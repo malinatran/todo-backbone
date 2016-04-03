@@ -39,6 +39,10 @@ input:focus {
   text-align: center;
 }
 
+.thumbtack {
+  width: 80px;
+}
+
 /* TODO List */
 table {
   margin: 0 auto;
@@ -183,6 +187,7 @@ li {
   margin: 0 auto;
   padding: 20px 25px 50px;
   position: relative;
+  width: 400px;
 }
 
 #wrapper:before, #wrapper:after {
